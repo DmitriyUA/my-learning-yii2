@@ -38,8 +38,8 @@ class User extends \yii\db\ActiveRecord
             [['username', 'email', 'password'], 'filter', 'filter' => 'trim'],
             [['username', 'email', 'status'], 'required'],
             ['email', 'email'],
-            ['username','string','min' => 2, 'max' => 255],
-            ['password', 'reauired', 'on' => 'create'],
+            ['username','string', 'min' => 2, 'max' => 255],
+            ['password', 'required', 'on' => 'create'],
             ['username', 'unique', 'message' => 'Это имя уже занято, пожалуйста используйте другое!'],
             ['email', 'unique', 'message' => 'Эта почта уже зарегистрирована!'],
         ];

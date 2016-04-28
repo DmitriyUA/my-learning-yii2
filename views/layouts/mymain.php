@@ -30,8 +30,14 @@ AppAsset::register($this);
 
 <body>
 <?php $this->beginBody()?>
+
     <div class = "wrap">
-    	<div class = "container main-container">
+        <div class = "container my-container">
+            <header class = "header my-header">
+
+            </header>
+        </div>
+    	<div class = "container my-container">
           <?php
               Navbar::begin([
                   'brandLabel' => 'Test application',

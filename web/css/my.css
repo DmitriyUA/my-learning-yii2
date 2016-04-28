@@ -12,7 +12,15 @@
     width: 200px;
     height: 200px;
 }
-.main-container
+.my-container
 {
     padding: 0 !important;
+}
+.my-header
+{
+    background-image: url(../images/header.JPG);
+    height: 200px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+
 }
